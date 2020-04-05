@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/introduction" />
+        <item
+            android:id="@+id/nav_one"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_one" />
+        <item
+            android:id="@+id/nav_two"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_two" />
+        <item
+            android:id="@+id/nav_three"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_three" />
+        <item
+            android:id="@+id/nav_four"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_four" />
+        <item
+            android:id="@+id/nav_five"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_five" />
+        <item
+            android:id="@+id/nav_six"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_six" />
+        <item
+            android:id="@+id/nav_seven"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_seven" />
+        <item
+            android:id="@+id/nav_eight"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_eight" />
+        <item
+            android:id="@+id/nav_nine"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_nine" />
+        <item
+            android:id="@+id/nav_ten"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_ten" />
+        <item
+            android:id="@+id/nav_eleven"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_eleven" />
+        <item
+            android:id="@+id/nav_twelve"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_twelve" />
+        <item
+            android:id="@+id/nav_thirteen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_thirteen" />
+        <item
+            android:id="@+id/nav_fourteen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_fourteen" />
+        <item
+            android:id="@+id/nav_fifteen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_fifteen" />
+        <item
+            android:id="@+id/nav_sixteen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_sixteen" />
+        <item
+            android:id="@+id/nav_seventeen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_seventeen" />
+        <item
+            android:id="@+id/nav_eighteen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_eighteen" />
+        <item
+            android:id="@+id/nav_nineteen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_nineteen" />
+        <item
+            android:id="@+id/nav_twenty"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_twenty" />
+        <item
+            android:id="@+id/nav_twenty_one"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/chapter_twenty_one" />
+
+    </group>
+
+    <item android:title="@string/share_book">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name"><b><i>SanChatClient</i></b></string>
+    <string name="enter_text_to_sent"><i>Enter Message to send</i></string>
+    <string name="connect"><b><i>Connect</i></b></string>
+</resources>

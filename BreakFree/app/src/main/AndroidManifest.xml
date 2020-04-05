@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sanraphindustries.sanraph.breakfree">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:fullBackupContent="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".One"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Two"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Three"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Four"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Five"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Six"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Seven"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Eight"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Nine"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Eleven"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Twelve"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Thirteen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Fourteen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Fifteen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Sixteen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Seventeen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Eighteen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Nineteen"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Twenty"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".TwentyOne"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Intro"
+                  android:label="@string/app_name_two"
+                  android:parentActivityName=".MainActivity"
+                  tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity android:name=".Ten"
+            android:label="@string/app_name_two"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sanraphindustries.sanraph.breakfree.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".NotePad"
+            android:label="@string/title_activity_note_pad"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
